@@ -677,3 +677,13 @@ em { font-style: italic; }
 @media (max-width: 420px) {
   .site-nav { display: none; }
 }
+
+/* ── Data tables ─────────────────────────────────────────── */
+.data-table { width: 100%; border-collapse: collapse; margin: 1.75rem 0; font-family: var(--font-ui); font-size: .875rem; overflow-x: auto; display: block; }
+.data-table thead th { background: var(--terra); color: #fff; padding: .55rem .85rem; text-align: left; font-weight: 600; letter-spacing: .04em; white-space: nowrap; }
+.data-table td { padding: .55rem .85rem; border-bottom: 1px solid var(--border); vertical-align: top; color: var(--ink-2); }
+.data-table tr:last-child td { border-bottom: none; }
+.data-table tr:nth-child(even) td { background: rgba(0,0,0,.03); }
+[data-theme="dark"] .data-table thead th { background: var(--terra-d); }
+[data-theme="dark"] .data-table tr:nth-child(even) td { background: rgba(255,255,255,.04); }
+@media (max-width: 700px) { .data-table { font-size: .8rem; } .data-table td, .data-table thead th { padding: .45rem .6rem; } }
