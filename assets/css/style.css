@@ -578,6 +578,18 @@ em { font-style: italic; }
 .post-content strong { font-weight: 500; color: var(--ink); }
 .post-content a { color: var(--terra); }
 
+/* Affiliate disclosure */
+.affiliate-disclosure {
+  font-family: var(--font-ui);
+  font-size: .75rem;
+  color: var(--ink-3);
+  background: var(--surface);
+  border-left: 3px solid var(--terra);
+  padding: .5rem .75rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0 4px 4px 0;
+}
+
 /* Photo credit */
 .photo-credit {
   font-family: var(--font-ui);
