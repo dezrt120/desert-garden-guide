@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desert Garden Guide — Grow Wild in the Desert</title>
+  <meta name="description" content="Practical wisdom for cacti, native plants, and water-wise gardens in arid climates — without fighting the land.">
+  <link rel="canonical" href="https://desertgardenguide.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script>
+    (function(){
+      var s = localStorage.getItem('dgg-theme');
+      var m = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.setAttribute('data-theme', (s ? s === 'dark' : m) ? 'dark' : 'light');
+    })();
+  </script>
+  <style>
+    .fade-in { opacity: 0; transform: translateY(18px); transition: opacity .55s ease, transform .55s ease; }
+    .fade-in.visible { opacity: 1; transform: none; }
+    .fade-in:nth-child(2) { transition-delay: .1s; }
+    .fade-in:nth-child(3) { transition-delay: .2s; }
+    .fade-in:nth-child(4) { transition-delay: .3s; }
+  </style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://desertgardenguide.com/#organization","name":"Desert Garden Guide","url":"https://desertgardenguide.com/","description":"Desert gardening tips, guides, and inspiration for growing in arid climates."},{"@type":"WebSite","@id":"https://desertgardenguide.com/#website","url":"https://desertgardenguide.com/","name":"Desert Garden Guide","publisher":{"@id":"https://desertgardenguide.com/#organization"}}]}</script>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container">
+    <a class="site-logo" href="/" aria-label="Desert Garden Guide home">
+      <img src="/wp-content/uploads/2025/06/ChatGPT-Image-Jun-22-2025-04_27_12-AM2.png" alt="Desert Garden Guide" height="40">
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="/blog/">Blog</a>
+      <a href="/blog/#categories">Topics</a>
+      <a href="/about/">About</a>
+      <button class="theme-toggle" aria-label="Switch to dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner">
+
+        <!-- Left: text -->
+        <div class="hero-text">
+          <p class="eyebrow">Desert Garden Guide</p>
+          <h1 class="hero-title">Grow wild<br><em>in the desert</em></h1>
+          <p class="hero-desc">Practical wisdom for cacti, native plants, and water-wise gardens in arid climates — without fighting the land.</p>
+          <div class="btn-group">
+            <a class="btn btn-primary" href="/blog/">Read the Blog</a>
+            <a class="btn btn-outline" href="#categories">Browse Topics</a>
+          </div>
+        </div>
+
+        <!-- Right: photo collage -->
+        <div class="dgg-collage" aria-hidden="true">
+          <div class="dgg-photo dgg-photo-main">
+            <img src="/wp-content/uploads/2025/07/pexels-yigithan02-764998.jpg" alt="Saguaro cacti in the Sonoran Desert at golden hour" loading="eager" fetchpriority="high">
+            <span class="dgg-photo-label">Sonoran Desert</span>
+          </div>
+          <div class="dgg-photo">
+            <img src="/wp-content/uploads/2025/07/Pollinator-Header.jpg" alt="Saguaro hillside with yellow brittlebush in bloom" loading="eager">
+            <span class="dgg-photo-label">Desert in Bloom</span>
+          </div>
+          <div class="dgg-photo">
+            <img src="/wp-content/uploads/2025/07/pexels-cup-of-couple-8472086.jpg" alt="Minimalist cactus against white wall" loading="lazy">
+            <span class="dgg-photo-label">Desert Minimal</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANT STRIP -->
+  <div class="plant-strip">
+    <div class="container">
+      <div class="plant-strip-inner">
+        <span class="plant-strip-label">Growing now</span>
+        <div class="plant-strip-plants">
+          <span>Saguaro</span>
+          <span>Prickly Pear</span>
+          <span>Blue Agave</span>
+          <span>Desert Willow</span>
+          <span>Ocotillo</span>
+          <span>Palo Verde</span>
+          <span>Brittlebush</span>
+          <span>Barrel Cactus</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CATEGORIES -->
+  <section class="section" id="categories">
+    <div class="container">
+      <div class="section-head fade-in">
+        <p class="eyebrow">Explore by Topic</p>
+        <h2>Where would you like to <em>begin?</em></h2>
+      </div>
+      <div class="cat-grid fade-in">
+        <div class="cat-card">
+          <a class="cat-link" href="/blog/?category=desert-gardening-basics" aria-label="Desert Gardening Basics">
+            <span class="cat-icon">🌵</span>
+            <span class="cat-name">Desert Gardening Basics</span>
+            <span class="cat-arrow">↗</span>
+          </a>
+        </div>
+        <div class="cat-card">
+          <a class="cat-link" href="/blog/?category=water-wise" aria-label="Water-Wise Techniques">
+            <span class="cat-icon">💧</span>
+            <span class="cat-name">Water-Wise Techniques</span>
+            <span class="cat-arrow">↗</span>
+          </a>
+        </div>
+        <div class="cat-card">
+          <a class="cat-link" href="/blog/?category=native-plants" aria-label="Native Plants">
+            <span class="cat-icon">🌿</span>
+            <span class="cat-name">Native Plants</span>
+            <span class="cat-arrow">↗</span>
+          </a>
+        </div>
+        <div class="cat-card">
+          <a class="cat-link" href="/blog/?category=wildflowers" aria-label="Desert Wildflowers">
+            <span class="cat-icon">🌺</span>
+            <span class="cat-name">Desert Wildflowers</span>
+            <span class="cat-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED POST -->
+  <section class="section section-surface">
+    <div class="container">
+      <div class="featured-inner">
+        <div class="feat-img-wrap fade-in">
+          <img src="/wp-content/uploads/2025/07/615df408-bada-57eb-b1e7-5a92c220eb45.image_.jpg" alt="A lush desert zen garden with white gravel and native plants" loading="lazy">
+          <span class="feat-tag">Latest Post</span>
+        </div>
+        <div class="feat-text fade-in">
+          <p class="eyebrow">Desert Gardening Basics</p>
+          <h2>Beginner's Guide: Starting Your <em>Desert Garden</em> From Scratch</h2>
+          <p class="feat-meta">2025 &nbsp;·&nbsp; 10 min read</p>
+          <p class="feat-body">Starting a desert garden from scratch may seem daunting at first, but with a few handy tips, the right tools, and some resilient plants, you'll turn your arid space into a thriving desert paradise.</p>
+          <div>
+            <a class="btn btn-primary" href="/blog/creating-your-desert-garden-guide/">Read the Guide</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LATEST POSTS -->
+  <section class="section">
+    <div class="container">
+      <div class="posts-header fade-in">
+        <div>
+          <p class="eyebrow">From the Blog</p>
+          <h2>Latest <em>Posts</em></h2>
+        </div>
+        <a class="btn btn-outline" href="/blog/">All Posts</a>
+      </div>
+      <div class="posts-grid">
+        <article class="post-card fade-in">
+          <a href="/blog/creating-your-desert-garden-guide/">
+            <img class="post-card-img" src="/wp-content/uploads/2025/07/615df408-bada-57eb-b1e7-5a92c220eb45.image_.jpg" alt="Desert zen garden" loading="lazy">
+          </a>
+          <div class="post-card-body">
+            <span class="post-card-cat">Desert Gardening Basics</span>
+            <h3 class="post-card-title"><a href="/blog/creating-your-desert-garden-guide/">Beginner's Guide: Starting Your Desert Garden From Scratch</a></h3>
+            <p class="post-card-excerpt">With the right tools, resilient plants, and a few handy tips, you can turn your arid yard into a thriving desert paradise.</p>
+            <span class="post-card-date">July 2025</span>
+          </div>
+        </article>
+        <article class="post-card fade-in">
+          <a href="/blog/the-best-time-of-year-to-plant-in-the-desert-and-why-it-matters/">
+            <img class="post-card-img" src="/wp-content/uploads/2025/07/Pollinator-Header.jpg" alt="Desert wildflowers in bloom" loading="lazy">
+          </a>
+          <div class="post-card-body">
+            <span class="post-card-cat">Desert Gardening Basics</span>
+            <h3 class="post-card-title"><a href="/blog/the-best-time-of-year-to-plant-in-the-desert-and-why-it-matters/">The Best Time of Year to Plant in the Desert and Why It Matters</a></h3>
+            <p class="post-card-excerpt">Desert planting schedules are backwards from the rest of the country. Here's what the calendar actually looks like for arid-climate gardeners.</p>
+            <span class="post-card-date">July 2025</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PULL QUOTE -->
+  <section class="quote-section">
+    <div class="container">
+      <blockquote class="pull-quote">
+        <p>"The desert is not an obstacle to overcome — it is a living partner. Learn its rhythms and it will reward you."</p>
+        <cite>Desert Garden Guide</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter-section">
+    <div class="container">
+      <p class="eyebrow">Stay in Season</p>
+      <h2>Seasonal <em>Garden Notes</em></h2>
+      <p class="nl-desc">Tips timed to the desert calendar — not the generic gardening schedule.</p>
+      <form class="nl-form" novalidate>
+        <input class="nl-input" type="email" placeholder="your@email.com" aria-label="Email address" required>
+        <button class="btn btn-primary" type="submit">Subscribe</button>
+      </form>
+      <p class="nl-note">No spam. Unsubscribe anytime.</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <a class="footer-logo" href="/" aria-label="Desert Garden Guide">
+        <img src="/wp-content/uploads/2025/06/ChatGPT-Image-Jun-22-2025-04_27_12-AM2.png" alt="Desert Garden Guide" height="28">
+      </a>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="/blog/">Blog</a>
+        <a href="/about/">About</a>
+      </nav>
+      <p class="footer-copy">&copy; 2025 Desert Garden Guide</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

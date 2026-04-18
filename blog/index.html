@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Desert Garden Guide</title>
+  <meta name="description" content="Desert gardening guides, plant care tips, and arid-climate growing advice. Learn to grow with the desert, not against it.">
+  <link rel="canonical" href="https://desertgardenguide.com/blog/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script>
+    (function(){
+      var s = localStorage.getItem('dgg-theme');
+      var m = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.setAttribute('data-theme', (s ? s === 'dark' : m) ? 'dark' : 'light');
+    })();
+  </script>
+  <style>
+    .fade-in { opacity: 0; transform: translateY(18px); transition: opacity .55s ease, transform .55s ease; }
+    .fade-in.visible { opacity: 1; transform: none; }
+    .fade-in:nth-child(2) { transition-delay: .1s; }
+    .fade-in:nth-child(3) { transition-delay: .2s; }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="site-logo" href="/" aria-label="Desert Garden Guide home">
+      <img src="/wp-content/uploads/2025/06/ChatGPT-Image-Jun-22-2025-04_27_12-AM2.png" alt="Desert Garden Guide" height="40">
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="/blog/" aria-current="page">Blog</a>
+      <a href="/#categories">Topics</a>
+      <a href="/about/">About</a>
+      <button class="theme-toggle" aria-label="Switch to dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <div class="blog-hero">
+    <div class="container">
+      <p class="eyebrow">From the Blog</p>
+      <h1>Latest <em>Posts</em></h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="blog-grid">
+
+      <article class="post-card fade-in">
+        <a href="/blog/creating-your-desert-garden-guide/">
+          <img class="post-card-img" src="/wp-content/uploads/2025/07/615df408-bada-57eb-b1e7-5a92c220eb45.image_.jpg" alt="Desert zen garden with white gravel and native plants" loading="lazy">
+        </a>
+        <div class="post-card-body">
+          <span class="post-card-cat">Desert Gardening Basics</span>
+          <h2 class="post-card-title"><a href="/blog/creating-your-desert-garden-guide/">Beginner's Guide: Starting Your Desert Garden From Scratch</a></h2>
+          <p class="post-card-excerpt">With the right tools, resilient plants, and a few handy tips, you can turn your arid yard into a thriving desert paradise.</p>
+          <span class="post-card-date">July 2025 &nbsp;·&nbsp; 10 min read</span>
+        </div>
+      </article>
+
+      <article class="post-card fade-in">
+        <a href="/blog/the-best-time-of-year-to-plant-in-the-desert-and-why-it-matters/">
+          <img class="post-card-img" src="/wp-content/uploads/2025/07/Pollinator-Header.jpg" alt="Desert hillside covered in yellow brittlebush bloom" loading="lazy">
+        </a>
+        <div class="post-card-body">
+          <span class="post-card-cat">Desert Gardening Basics</span>
+          <h2 class="post-card-title"><a href="/blog/the-best-time-of-year-to-plant-in-the-desert-and-why-it-matters/">The Best Time of Year to Plant in the Desert and Why It Matters</a></h2>
+          <p class="post-card-excerpt">Desert planting schedules are backwards from the rest of the country. Here's what the calendar actually looks like for arid-climate gardeners who want to give their plants the best shot.</p>
+          <span class="post-card-date">July 2025 &nbsp;·&nbsp; 8 min read</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter-section" style="margin-top:clamp(3rem,7vw,6rem)">
+    <div class="container">
+      <p class="eyebrow">Stay in Season</p>
+      <h2>Seasonal <em>Garden Notes</em></h2>
+      <p class="nl-desc">Tips timed to the desert calendar — not the generic gardening schedule.</p>
+      <form class="nl-form" novalidate>
+        <input class="nl-input" type="email" placeholder="your@email.com" aria-label="Email address" required>
+        <button class="btn btn-primary" type="submit">Subscribe</button>
+      </form>
+      <p class="nl-note">No spam. Unsubscribe anytime.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <a class="footer-logo" href="/" aria-label="Desert Garden Guide">
+        <img src="/wp-content/uploads/2025/06/ChatGPT-Image-Jun-22-2025-04_27_12-AM2.png" alt="Desert Garden Guide" height="28">
+      </a>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="/blog/">Blog</a>
+        <a href="/about/">About</a>
+      </nav>
+      <p class="footer-copy">&copy; 2025 Desert Garden Guide</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
