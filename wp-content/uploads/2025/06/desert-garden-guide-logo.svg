@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 56" height="56" role="img" aria-label="Desert Garden Guide">
+  <!-- Icon: rounded rect with cactus -->
+  <rect x="2" y="2" width="52" height="52" rx="8" ry="8" fill="none" stroke="#C1440E" stroke-width="2.5"/>
+  <!-- Ground line -->
+  <line x1="8" y1="44" x2="48" y2="44" stroke="#C1440E" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Saguaro cactus body -->
+  <rect x="24" y="14" width="8" height="30" rx="4" fill="#C1440E"/>
+  <!-- Left arm -->
+  <path d="M24 28 Q14 28 14 22 Q14 18 18 18" fill="none" stroke="#C1440E" stroke-width="4" stroke-linecap="round"/>
+  <rect x="14" y="18" width="4" height="10" rx="2" fill="#C1440E"/>
+  <!-- Right arm -->
+  <path d="M32 24 Q42 24 42 18 Q42 14 38 14" fill="none" stroke="#C1440E" stroke-width="4" stroke-linecap="round"/>
+  <rect x="38" y="14" width="4" height="10" rx="2" fill="#C1440E"/>
+  <!-- Sun -->
+  <circle cx="14" cy="12" r="3" fill="#C1440E"/>
+  <line x1="14" y1="7" x2="14" y2="5" stroke="#C1440E" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="18.5" y1="8.5" x2="19.9" y2="7.1" stroke="#C1440E" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="9.5" y1="8.5" x2="8.1" y2="7.1" stroke="#C1440E" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Text: Desert Garden Guide — uniform weight -->
+  <text x="66" y="38" font-family="'Barlow Condensed', 'Arial Narrow', sans-serif" font-size="26" font-weight="600" fill="#C1440E" letter-spacing="0.5">Desert Garden Guide</text>
+</svg>
