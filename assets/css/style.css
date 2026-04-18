@@ -581,13 +581,13 @@ em { font-style: italic; }
 /* Affiliate disclosure */
 .affiliate-disclosure {
   font-family: var(--font-ui);
-  font-size: .75rem;
+  font-size: .65rem;
   color: var(--ink-3);
-  background: var(--surface);
-  border-left: 3px solid var(--terra);
-  padding: .5rem .75rem;
-  margin-bottom: 1.5rem;
-  border-radius: 0 4px 4px 0;
+  opacity: .6;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  letter-spacing: .02em;
 }
 
 /* Photo credit */
