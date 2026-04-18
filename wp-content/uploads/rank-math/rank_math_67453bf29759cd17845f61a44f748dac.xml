@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//desertgardenguide.com/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>https://desertgardenguide.com/post-sitemap.xml</loc>
+		<loc>https://desertgardenguide-com-766717.hostingersite.com/post-sitemap.xml</loc>
 		<lastmod>2026-04-17T12:28:48+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://desertgardenguide.com/page-sitemap.xml</loc>
+		<loc>https://desertgardenguide-com-766717.hostingersite.com/page-sitemap.xml</loc>
 		<lastmod>2025-06-22T12:54:05+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://desertgardenguide.com/category-sitemap.xml</loc>
+		<loc>https://desertgardenguide-com-766717.hostingersite.com/category-sitemap.xml</loc>
 		<lastmod>2026-04-17T12:28:48+00:00</lastmod>
 	</sitemap>
 </sitemapindex>

@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//desertgardenguide.com/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://desertgardenguide.com/</loc>
+		<loc>https://desertgardenguide-com-766717.hostingersite.com/</loc>
 		<lastmod>2025-06-22T12:54:05+00:00</lastmod>
 		<image:image>
-			<image:loc>https://desertgardenguide.com/wp-content/uploads/2025/06/ChatGPT-Image-Jun-22-2025-04_27_12-AM2.png</image:loc>
+			<image:loc>https://desertgardenguide-com-766717.hostingersite.com/wp-content/uploads/2025/06/ChatGPT-Image-Jun-22-2025-04_27_12-AM2.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://desertgardenguide.com/wp-content/uploads/2025/07/pexels-yigithan02-764998-530x250.jpg</image:loc>
+			<image:loc>https://desertgardenguide-com-766717.hostingersite.com/wp-content/uploads/2025/07/pexels-yigithan02-764998-530x250.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://desertgardenguide.com/wp-content/uploads/2025/07/pexels-cup-of-couple-8472086-530x250.jpg</image:loc>
+			<image:loc>https://desertgardenguide-com-766717.hostingersite.com/wp-content/uploads/2025/07/pexels-cup-of-couple-8472086-530x250.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://desertgardenguide.com/blog/</loc>
+		<loc>https://desertgardenguide-com-766717.hostingersite.com/blog/</loc>
 		<lastmod>2025-06-22T12:18:02+00:00</lastmod>
 		<image:image>
-			<image:loc>https://desertgardenguide.com/wp-content/uploads/2025/07/pexels-yigithan02-764998-530x250.jpg</image:loc>
+			<image:loc>https://desertgardenguide-com-766717.hostingersite.com/wp-content/uploads/2025/07/pexels-yigithan02-764998-530x250.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://desertgardenguide.com/wp-content/uploads/2025/07/pexels-cup-of-couple-8472086-530x250.jpg</image:loc>
+			<image:loc>https://desertgardenguide-com-766717.hostingersite.com/wp-content/uploads/2025/07/pexels-cup-of-couple-8472086-530x250.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://desertgardenguide.com/about/</loc>
+		<loc>https://desertgardenguide-com-766717.hostingersite.com/about/</loc>
 		<lastmod>2025-06-22T12:18:02+00:00</lastmod>
 	</url>
 </urlset>
