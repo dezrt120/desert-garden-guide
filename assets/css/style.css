@@ -512,6 +512,36 @@ em { font-style: italic; }
   padding: clamp(2.5rem, 5vw, 4.5rem) 0 clamp(2rem, 4vw, 3rem);
   border-bottom: 1px solid var(--border);
 }
+
+/* Category filter bar */
+.cat-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  padding: 1.5rem 0 0;
+}
+.cat-filter-btn {
+  font-family: var(--font-ui);
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  padding: .4rem .9rem;
+  border: 1.5px solid var(--border);
+  border-radius: 2rem;
+  background: transparent;
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: background .18s, color .18s, border-color .18s;
+}
+.cat-filter-btn:hover,
+.cat-filter-btn.active {
+  background: var(--terra);
+  border-color: var(--terra);
+  color: #fff;
+}
+.post-card[hidden] { display: none; }
+
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
