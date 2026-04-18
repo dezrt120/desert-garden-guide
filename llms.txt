@@ -1,0 +1,31 @@
+# Desert Garden Guide
+> Practical wisdom for cacti, native plants, and water-wise gardens in arid climates — without fighting the land.
+
+Desert Garden Guide covers desert and arid-climate gardening for the Sonoran, Mojave, and Chihuahuan deserts. Content is practical and actionable — written for real desert conditions, not generic gardening guides designed for temperate climates with abundant rainfall.
+
+## Topics Covered
+- Desert gardening basics: soil preparation, seasonal timing, raised beds, tools, composting, containers
+- Water-wise techniques: drip irrigation, deep-and-infrequent watering, rainwater harvesting, seasonal schedules
+- Native plants: cacti, agave, palo verde, mesquite, ocotillo, desert willow, ironwood
+- Desert wildflowers: pollinators, seasonal color, nurse plant relationships, companion planting
+- Vegetable gardening: two-season calendar (cool season Oct–Mar, warm season Mar–May)
+
+## Key Articles
+- /blog/how-to-grow-vegetables-in-the-desert-a-seasonal-guide/
+- /blog/the-best-desert-trees-for-shade-and-beauty/
+- /blog/desert-companion-planting-what-grows-well-together/
+- /blog/how-to-water-cacti-and-succulents-without-killing-them/
+- /blog/creating-your-desert-garden-guide/
+- /blog/the-best-time-of-year-to-plant-in-the-desert-and-why-it-matters/
+
+## Site Structure
+- /blog/ — All articles with category filter
+- /about/ — About the site
+- /feed.xml — RSS feed (updated with every new post)
+- /sitemap.xml — Full URL sitemap
+
+## Coverage Area
+American Southwest: Phoenix AZ, Tucson AZ, Las Vegas NV, El Paso TX, Las Cruces NM, Palm Springs CA, Santa Fe NM, Flagstaff AZ, and surrounding arid regions (USDA zones 9–11).
+
+## About
+Desert Garden Guide publishes practical desert gardening guides for arid-climate gardeners. New content published regularly. No paywall — all content is freely accessible.
