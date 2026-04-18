@@ -578,6 +578,18 @@ em { font-style: italic; }
 .post-content strong { font-weight: 500; color: var(--ink); }
 .post-content a { color: var(--terra); }
 
+/* Photo credit */
+.photo-credit {
+  font-family: var(--font-ui);
+  font-size: .7rem;
+  color: var(--ink-3);
+  text-align: right;
+  margin-top: .4rem;
+  letter-spacing: .04em;
+}
+.photo-credit a { color: var(--ink-3); text-decoration: none; }
+.photo-credit a:hover { color: var(--terra); }
+
 /* ── About page ──────────────────────────────────────────── */
 .about-hero {
   padding: clamp(3rem, 6vw, 5rem) 0;
