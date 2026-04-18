@@ -44,7 +44,7 @@
       function filterCards(cat) {
         document.querySelectorAll('#blog-grid .post-card').forEach(function (card) {
           var match = cat === 'all' || card.getAttribute('data-category') === cat;
-          card.hidden = !match;
+          card.style.display = match ? '' : 'none';
         });
         filterBtns.forEach(function (b) {
           b.classList.toggle('active', b.getAttribute('data-cat') === cat);
