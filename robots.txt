@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://desertgardenguide-com-766717.hostingersite.com-766717.hostingersite.com/sitemap.xml
+Sitemap: https://desertgardenguide-com-766717.hostingersite.com/sitemap.xml
