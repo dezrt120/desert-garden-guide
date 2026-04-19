@@ -68,6 +68,62 @@
       });
     }
 
+    /* Hero collage cycling ──────────────────────────── */
+    var collage = document.querySelector('.dgg-collage');
+    if (collage) {
+      var PHOTOS = [
+        { src: '/wp-content/uploads/2025/07/saguaro-cactus-sonoran-desert-golden-hour.jpg',                              alt: 'Saguaro cacti at golden hour',                   label: 'Sonoran Desert',    credit: 'Photo via Pexels',              url: 'https://www.pexels.com' },
+        { src: '/wp-content/uploads/2025/07/saguaro-hillside-brittlebush-bloom.jpg',                                     alt: 'Saguaro hillside with brittlebush in bloom',     label: 'Desert in Bloom',   credit: 'Photo via Pexels',              url: 'https://www.pexels.com' },
+        { src: '/wp-content/uploads/2025/07/minimalist-cactus-white-wall.jpg',                                           alt: 'Minimalist cactus against a white wall',         label: 'Desert Minimal',    credit: 'Photo via Pexels',              url: 'https://www.pexels.com' },
+        { src: '/wp-content/uploads/2025/07/desert-zen-garden-native-plants.jpg',                                        alt: 'Desert zen garden with native plants',           label: 'Desert Zen',        credit: 'Photo via Pexels',              url: 'https://www.pexels.com' },
+        { src: '/wp-content/uploads/2026/04/desert-companion-planting-what-grows-well-together-featured.jpg',            alt: 'Desert garden with succulents and cacti',        label: 'Companion Plants',  credit: 'Việt Anh Nguyễn · Pexels',    url: 'https://www.pexels.com/photo/desert-garden-with-diverse-succulents-and-cacti-31970503/' },
+        { src: '/wp-content/uploads/2026/04/how-to-grow-vegetables-in-the-desert-a-seasonal-guide-featured.jpg',         alt: 'Desert garden landscape with diverse cacti',     label: 'Desert Vegetables', credit: 'Grigoriy · Pexels',             url: 'https://www.pexels.com/photo/desert-garden-landscape-with-diverse-cacti-29054934/' },
+        { src: '/wp-content/uploads/2026/04/the-best-desert-trees-for-shade-and-beauty-featured.jpg',                   alt: 'Desert trees for shade and beauty',              label: 'Desert Trees',      credit: 'Yigithan Bal · Pexels',         url: 'https://www.pexels.com/photo/two-green-cactus-plants-at-daytime-764998/' },
+      ];
+
+      function shuffle(arr) {
+        for (var i = arr.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1));
+          var t = arr[i]; arr[i] = arr[j]; arr[j] = t;
+        }
+      }
+      shuffle(PHOTOS);
+
+      function applyPhoto(slot, photo) {
+        var img = slot.querySelector('img');
+        var label = slot.querySelector('.dgg-photo-label');
+        var cred = slot.querySelector('.dgg-credit');
+        img.src = photo.src;
+        img.alt = photo.alt;
+        if (label) label.textContent = photo.label;
+        cred.textContent = photo.credit;
+        cred.href = photo.url;
+      }
+
+      var slots = Array.from(collage.querySelectorAll('.dgg-photo'));
+      slots.forEach(function (slot, i) {
+        var cred = document.createElement('a');
+        cred.className = 'dgg-credit';
+        cred.target = '_blank';
+        cred.rel = 'noopener noreferrer';
+        slot.appendChild(cred);
+        slot._idx = i;
+        applyPhoto(slot, PHOTOS[i]);
+
+        setTimeout(function () {
+          setInterval(function () {
+            slot._idx = (slot._idx + slots.length) % PHOTOS.length;
+            var img = slot.querySelector('img');
+            img.style.opacity = '0';
+            setTimeout(function () {
+              applyPhoto(slot, PHOTOS[slot._idx]);
+              img.style.opacity = '1';
+            }, 420);
+          }, 7000);
+        }, i * 2400);
+      });
+    }
+
     /* Reading progress + TOC + Back to top ─────────── */
     var article = document.querySelector('.post-content');
     if (article) {
