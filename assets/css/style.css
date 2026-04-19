@@ -678,6 +678,94 @@ em { font-style: italic; }
   .site-nav { display: none; }
 }
 
+/* ── Reading progress bar ────────────────────────────────── */
+.reading-progress {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: var(--terra);
+  z-index: 99;
+  transition: width .08s linear;
+  pointer-events: none;
+}
+
+/* ── Table of contents ───────────────────────────────────── */
+.post-toc {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--terra);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  margin: 0 0 2.5rem;
+  font-family: var(--font-ui);
+}
+.post-toc-title {
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--terra);
+  margin-bottom: .8rem;
+}
+.post-toc ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: toc-c;
+}
+.post-toc li {
+  counter-increment: toc-c;
+  display: flex;
+  align-items: baseline;
+  gap: .6rem;
+  margin-bottom: .4rem;
+}
+.post-toc li::before {
+  content: counter(toc-c, decimal-leading-zero);
+  font-size: .62rem;
+  color: var(--ink-3);
+  flex-shrink: 0;
+  min-width: 1.4em;
+}
+.post-toc a {
+  font-size: .82rem;
+  line-height: 1.35;
+  color: var(--ink-2);
+  text-decoration: none;
+  transition: color .18s;
+}
+.post-toc a:hover { color: var(--terra); text-decoration: none; }
+.post-toc .toc-h3 { padding-left: 1.1rem; }
+.post-toc .toc-h3::before { content: '—'; font-size: .65rem; }
+
+/* ── Back to top ─────────────────────────────────────────── */
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 42px;
+  height: 42px;
+  background: var(--terra);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition: opacity .25s, transform .25s, background .2s;
+  z-index: 200;
+  box-shadow: 0 4px 16px rgba(0,0,0,.15);
+}
+.back-to-top.visible { opacity: 1; pointer-events: auto; transform: none; }
+.back-to-top:hover { background: var(--terra-d); transform: translateY(-2px); }
+.back-to-top svg { width: 18px; height: 18px; }
+
 /* ── Data tables ─────────────────────────────────────────── */
 .data-table { width: 100%; border-collapse: collapse; margin: 1.75rem 0; font-family: var(--font-ui); font-size: .875rem; overflow-x: auto; display: block; }
 .data-table thead th { background: var(--terra); color: #fff; padding: .55rem .85rem; text-align: left; font-weight: 600; letter-spacing: .04em; white-space: nowrap; }
