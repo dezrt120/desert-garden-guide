@@ -303,8 +303,18 @@ em { font-style: italic; }
   padding: 1.4rem 1.5rem;
   color: var(--ink);
   text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-family: inherit;
 }
 .cat-link:hover { text-decoration: none; }
+
+.cat-filter-grid { margin-top: 1.75rem; }
+.cat-card.active { background: var(--surface); }
+.cat-card.active .cat-name { color: var(--terra); }
+.cat-card.active .cat-arrow { color: var(--terra); transform: translate(2px, -2px); }
 .cat-icon { font-size: 1.3rem; flex-shrink: 0; }
 .cat-name {
   font-family: var(--font-ui);

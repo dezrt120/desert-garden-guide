@@ -46,7 +46,10 @@
         card.style.display = match ? '' : 'none';
       });
       filterBtns.forEach(function (b) {
-        b.classList.toggle('active', b.getAttribute('data-cat') === cat);
+        var isActive = b.getAttribute('data-cat') === cat;
+        b.classList.toggle('active', isActive);
+        var parentCard = b.closest('.cat-card');
+        if (parentCard) parentCard.classList.toggle('active', isActive);
       });
     };
     if (filterBtns.length) {
@@ -56,10 +59,11 @@
       filterBtns.forEach(function (btn) {
         btn.addEventListener('click', function () {
           var cat = btn.getAttribute('data-cat');
-          filterCards(cat);
+          var newCat = btn.classList.contains('active') ? 'all' : cat;
+          filterCards(newCat);
           var url = new URL(window.location.href);
-          if (cat === 'all') { url.searchParams.delete('cat'); }
-          else { url.searchParams.set('cat', cat); }
+          if (newCat === 'all') { url.searchParams.delete('cat'); }
+          else { url.searchParams.set('cat', newCat); }
           history.replaceState(null, '', url.toString());
         });
       });
