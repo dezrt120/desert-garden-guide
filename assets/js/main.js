@@ -116,8 +116,8 @@
             setTimeout(function () {
               applyPhoto(slot, PHOTOS[slot._idx]);
               img.style.opacity = '1';
-            }, 420);
-          }, 7000);
+            }, 900);
+          }, 40000);
         }, i * 2400);
       });
     }
