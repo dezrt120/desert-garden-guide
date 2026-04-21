@@ -91,16 +91,16 @@ em { font-style: italic; }
   justify-content: space-between;
   height: 80px;
 }
-.site-logo { display: inline-flex; align-items: center; gap: 3px; }
+.site-logo { display: flex; flex-direction: row; align-items: center; gap: 10px; }
 .site-logo:hover { text-decoration: none; }
 .site-logo:hover .logo-words { text-decoration: none; }
-.logo-icon { height: 62px; width: auto; border-radius: 6px; }
+.logo-icon { height: 40px; width: auto; border-radius: 6px; }
 .logo-words {
   display: flex;
   flex-direction: column;
   font-family: var(--font-ui);
-  font-size: 1.15rem;
-  font-weight: 700;
+  font-size: 1.1rem;
+  font-weight: 900;
   color: var(--terra);
   line-height: 1.05;
   letter-spacing: .04em;
