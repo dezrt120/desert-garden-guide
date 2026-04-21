@@ -40,27 +40,24 @@
 
     /* Category filter ──────────────────────────────── */
     var filterBtns = document.querySelectorAll('.cat-filter-btn');
+    var filterCards = function (cat) {
+      document.querySelectorAll('#blog-grid .post-card').forEach(function (card) {
+        var match = cat === 'all' || card.getAttribute('data-category') === cat;
+        card.style.display = match ? '' : 'none';
+      });
+      filterBtns.forEach(function (b) {
+        b.classList.toggle('active', b.getAttribute('data-cat') === cat);
+      });
+    };
     if (filterBtns.length) {
-      function filterCards(cat) {
-        document.querySelectorAll('#blog-grid .post-card').forEach(function (card) {
-          var match = cat === 'all' || card.getAttribute('data-category') === cat;
-          card.style.display = match ? '' : 'none';
-        });
-        filterBtns.forEach(function (b) {
-          b.classList.toggle('active', b.getAttribute('data-cat') === cat);
-        });
-      }
-
-      // Activate filter from URL param (?cat=water-wise)
       var urlCat = new URLSearchParams(window.location.search).get('cat');
       if (urlCat) filterCards(urlCat);
 
       filterBtns.forEach(function (btn) {
         btn.addEventListener('click', function () {
-          filterCards(btn.getAttribute('data-cat'));
-          // Update URL without reload so links are shareable
-          var url = new URL(window.location.href);
           var cat = btn.getAttribute('data-cat');
+          filterCards(cat);
+          var url = new URL(window.location.href);
           if (cat === 'all') { url.searchParams.delete('cat'); }
           else { url.searchParams.set('cat', cat); }
           history.replaceState(null, '', url.toString());
