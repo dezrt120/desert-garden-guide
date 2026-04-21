@@ -46,10 +46,7 @@
         card.style.display = match ? '' : 'none';
       });
       filterBtns.forEach(function (b) {
-        var isActive = b.getAttribute('data-cat') === cat;
-        b.classList.toggle('active', isActive);
-        var parentCard = b.closest('.cat-card');
-        if (parentCard) parentCard.classList.toggle('active', isActive);
+        b.classList.toggle('active', b.getAttribute('data-cat') === cat);
       });
     };
     if (filterBtns.length) {
