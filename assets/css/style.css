@@ -844,6 +844,23 @@ em { font-style: italic; }
 .back-to-top:hover { background: var(--terra-d); transform: translateY(-2px); }
 .back-to-top svg { width: 18px; height: 18px; }
 
+/* ── Section break dividers ──────────────────────────────── */
+.section-break {
+  display: block;
+  width: calc(100% + 4rem);
+  max-width: none;
+  margin: 2.75rem -2rem;
+  height: 90px;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.78;
+  border-radius: 2px;
+}
+@media (max-width: 760px) {
+  .section-break { width: 100%; margin: 2rem 0; height: 60px; }
+}
+[data-theme="dark"] .section-break { opacity: 0.45; filter: saturate(0.6); }
+
 /* ── Data tables ─────────────────────────────────────────── */
 .data-table { width: 100%; border-collapse: collapse; margin: 1.75rem 0; font-family: var(--font-ui); font-size: .875rem; overflow-x: auto; display: block; }
 .data-table thead th { background: var(--terra); color: #fff; padding: .55rem .85rem; text-align: left; font-weight: 600; letter-spacing: .04em; white-space: nowrap; }
