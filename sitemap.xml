@@ -122,9 +122,16 @@
 
   <url>
     <loc>https://desertgardenguide-com-766717.hostingersite.com/blog/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://desertgardenguide-com-766717.hostingersite.com/blog/how-to-plant-a-desert-wildflower-meadow/</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <url>
