@@ -3,7 +3,7 @@
 
   <url>
     <loc>https://desertgardenguide-com-766717.hostingersite.com/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -333,6 +333,13 @@
   <url>
     <loc>https://desertgardenguide-com-766717.hostingersite.com/blog/how-to-create-a-desert-food-forest/</loc>
     <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://desertgardenguide-com-766717.hostingersite.com/blog/surviving-the-desert-summer-protect-your-garden-extreme-heat/</loc>
+    <lastmod>2026-06-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
