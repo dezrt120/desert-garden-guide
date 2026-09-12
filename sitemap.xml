@@ -3,7 +3,7 @@
 
   <url>
     <loc>https://desertgardenguide-com-766717.hostingersite.com/</loc>
-    <lastmod>2026-09-04</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -152,6 +152,13 @@
   <url>
     <loc>https://desertgardenguide-com-766717.hostingersite.com/blog/how-to-grow-apache-plume-in-the-desert/</loc>
     <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://desertgardenguide-com-766717.hostingersite.com/blog/how-to-grow-date-palms-in-the-desert/</loc>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
