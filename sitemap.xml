@@ -94,7 +94,7 @@
 
   <url>
     <loc>https://desertgardenguide-com-766717.hostingersite.com/blog/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -161,6 +161,13 @@
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://desertgardenguide-com-766717.hostingersite.com/blog/how-to-fertilize-desert-plants-when-less-is-more/</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>
