@@ -3,7 +3,7 @@
 
   <url>
     <loc>https://desertgardenguide-com-766717.hostingersite.com/</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -173,6 +173,13 @@
   <url>
     <loc>https://desertgardenguide-com-766717.hostingersite.com/blog/how-to-fertilize-desert-plants-when-less-is-more/</loc>
     <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://desertgardenguide-com-766717.hostingersite.com/blog/how-to-grow-sotol-in-your-desert-landscape/</loc>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
